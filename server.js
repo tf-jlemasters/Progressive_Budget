@@ -2,12 +2,10 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-
 //Port
 const PORT = 3000;
 //Create app with express
 const app = express();
-
 //middlewares
 app.use(logger("dev"));
 app.use(compression());
@@ -21,7 +19,6 @@ mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
-
 // routes
 app.use(require("./routes/api.js"));
 

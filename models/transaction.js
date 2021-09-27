@@ -1,8 +1,5 @@
 const mongoose = require("mongoose");
-
 const Schema = mongoose.Schema;
-
-
 //define schema
 const transactionSchema = new Schema(
   {
@@ -21,7 +18,6 @@ const transactionSchema = new Schema(
     }
   }
 );
-
 //Create model from schema
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
