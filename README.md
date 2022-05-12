@@ -1,8 +1,7 @@
 
 # **Progressive Budget Application**
-https://lemasters-budget-app.herokuapp.com/
 ## Description 
-An application that allows you to track your deposits and withdrawals whether or not you are connected to the internet.
+An application that allows you to track your deposits and withdrawals whether or not you are connected to the internet. Forked from my original GitHub account.
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
